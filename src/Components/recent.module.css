@@ -1,0 +1,29 @@
+.recentWork {
+  border: 1px solid #262626;
+  background-color: #1b1b1b;
+  margin: 5px;
+  border-radius: 5px;
+}
+.recentUl li {
+  font-weight: 500;
+  color: #c0c0c0;
+  font-size: 16px;
+}
+.experience {
+  margin-left: 10px;
+}
+
+@media (min-width: 600px) {
+  .recentWork {
+    padding: 60px 40px 60 40px;
+    width: 594px;
+  }
+
+.experience {
+    width: 514px;
+    gap: 37px;
+  }
+  .recentUl {
+    text-align: left;
+  }
+} 

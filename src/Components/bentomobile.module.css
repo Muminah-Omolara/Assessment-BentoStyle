@@ -1,0 +1,19 @@
+.bentoMobile {
+  /* max-width: 1400px; */
+  margin: 0px auto;
+  padding: 20px;
+  overflow: hidden;
+  /* box-sizing: border-box; */
+}
+
+@media (max-width: 600px) {
+  body {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+  }
+}

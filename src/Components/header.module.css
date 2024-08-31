@@ -1,0 +1,105 @@
+.header {
+  border: 1px solid #262626;
+  background-color: #1b1b1b;
+  margin: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.profilePicture {
+  border-radius: 50%;
+}
+
+.headerUl li::marker {
+  color: #e63e21;
+  width: 7px;
+  height: 7px;
+}
+
+.headerUl {
+  border: 1px solid #262626;
+  border-radius: 14px;
+  width: 125px;
+}
+
+li {
+  font-weight: 500;
+  font-size: 9px;
+  padding: 5px 11px 5px 11px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.header .firstPara {
+  font-size: 16px;
+  font-weight: 500;
+}
+.header p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #c0c0c0;
+}
+
+.hireBtn,
+.text {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.line {
+  flex-grow: 1;
+  margin-right: 0 10px;
+  border-left: 0.5px solid black;
+  height: 18px;
+}
+.text {
+  white-space: nowrap;
+  padding: 7px;
+}
+.callToAction {
+  display: flex;
+}
+
+.copyBtn {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.desktopUl {
+  display: block;
+}
+.desktopImg {
+  display: none;
+  border-radius: 50%;
+}
+.desktopBody {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .desktopUl {
+    display: flex;
+    justify-content: space-between;
+    width: 1215px;
+    padding: 20px;
+  }
+  .desktopHeader,
+  .desktopImg {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .profilePicture {
+    display: none;
+  }
+}

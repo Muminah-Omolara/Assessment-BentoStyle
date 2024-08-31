@@ -1,0 +1,63 @@
+.navItems {
+  justify-content: space-between;
+  margin-bottom: 10px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1.3px solid #262626;
+  border-radius: 22px;
+  padding: 10px 16px 10px 16px;
+  width: 283px;
+}
+.icon {
+  background-color: #262626;
+  padding: 8px;
+  margin-left: 20px;
+  border: 1.3px solid rgb(109, 92, 92);
+  border-radius: 33px;
+}
+
+.navAbout {
+  font-weight: 700;
+  font-size: 13px;
+  color: #f35034;
+}
+.desktopNav {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .mobileNav {
+    display: none;
+  }
+  .desktopNav {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #262626;
+    border-radius: 48px;
+    width: 1152px;
+    padding: 20px 60px 20px 60px;
+    gap: 369px;
+  }
+  .desktopPara {
+    color: #c0c0c0;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .desktopAbout {
+    font-weight: 700;
+    color: #f35034;
+    font-size: 20px;
+  }
+  .icon {
+    width: 44px;
+    height: 44px;
+  }
+}

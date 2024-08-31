@@ -1,0 +1,47 @@
+.mobileApp {
+  background-color: #1b1b1b;
+  border: 1px solid #262626;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.arrow {
+  padding: 0;
+  margin-left: 20px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.arrow p {
+  margin-top: 2px;
+  padding-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #c0c0c0;
+}
+
+.mobileApp h3 {
+  margin-left: 20px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.phone {
+  text-align: center;
+}
+.arrowSvg {
+  background-color: #e63e21;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 40px;
+  margin-top: -20px;
+}
+
+@media (min-width: 600px) {
+  .mobileApp h3 {
+    margin-left: -445px;
+  }
+}

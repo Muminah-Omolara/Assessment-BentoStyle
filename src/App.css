@@ -1,0 +1,21 @@
+body {
+  border: 1px solid #262626;
+  background-color: #1b1b1b;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+.desktopStyles {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .mobileStyles {
+    display: none;
+  }
+  .desktopStyles {
+    display: flex;
+  }
+}

@@ -1,0 +1,10 @@
+@media (min-width: 600px) {
+  .desktopView {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    width: 1200px;
+  }
+}
