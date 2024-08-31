@@ -1,5 +1,5 @@
 import iphone from "../assets/iphoneImg.png";
-import styles from "./mobileapp.module.css";
+import styles from "./mobileApp.module.css";
 
 export default function MobileApp() {
   return (
